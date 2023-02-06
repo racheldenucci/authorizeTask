@@ -10,22 +10,34 @@
 <body>
     <header>
         <h1>Tasks</h1>
-        <button class="new-task">+ add task</button>
+        <button id="new-task-btn">+ add task</button>
     </header>
 
     <div class="main">
         
         <div class="task">
              <p class="title">test task</p>
-             <p class="status">pending</p>
+             <p class="store">store 2</p>
              <p class="price">R$ 150</p>
+             <p class="status">pending</p>
+
              <div class="buttons">
                 <button id="authorize">OK</button>
                 <button id="deny">X</button>
-            </div>
-             
+            </div>  
         </div>
+
+            <div class="popup">
+                
+                <input type="text" placeholder="title">
+                <input type="text" placeholder="store name">
+                <input type="number" min="1" placeholder="valor">
+                
+
+            </div>
+        
     </div>
     
+    <script src="script.js"></script>
 </body>
 </html>

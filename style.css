@@ -20,6 +20,16 @@ header{
     margin: 36px;
 }
 
+#new-task-btn{
+    padding: 12px;
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+    color: green;
+
+    border: 0;
+    border-radius: 8px;
+}
+
 .main{
     display: flex;
     justify-content: center;
@@ -34,4 +44,17 @@ header{
     border-radius: 8px;
 
     padding: 12px;
+}
+
+.popup{
+     /*visibility: hidden;*/
+    width: 60vw;
+    height: 50vh;
+    background-color: white;
+    position: absolute;
+    z-index: 1;
+
+    border-radius: 8px;
+
+    padding: 24px;
 }
