@@ -46,8 +46,8 @@ header{
     padding: 12px;
 }
 
-.popup{
-     /*visibility: hidden;*/
+.hide{
+    visibility: hidden;
     width: 60vw;
     height: 50vh;
     background-color: white;
@@ -56,5 +56,13 @@ header{
 
     border-radius: 8px;
 
-    padding: 24px;
+    padding: 36px;
+
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.show{
+    visibility: visible;
 }

@@ -1,6 +1,8 @@
 let addTaskBtn = document.getElementById("new-task-btn")
-let popup = document.getElementById("")
+
 
 addTaskBtn.addEventListener("click", function(){
     
+    let popup = document.getElementById("popup");
+    popup.classList.toggle("show");
 })
