@@ -20,7 +20,7 @@ header{
     margin: 36px;
 }
 
-#new-task-btn{
+button{
     padding: 12px;
     font-family: Arial, sans-serif;
     font-weight: bold;
@@ -65,4 +65,23 @@ header{
 
 .show{
     visibility: visible;
+}
+
+#popup input{
+    padding: 6px;
+}
+
+.popup-btns{
+    display: flex;
+    justify-content: space-between;
+}
+
+#save-task{
+    color: white;
+    background: green; 
+}
+
+#cancel-task{
+    color: white;
+    background: gray;
 }
