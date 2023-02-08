@@ -46,6 +46,20 @@ button{
     padding: 12px;
 }
 
+#authorize:hover{
+    background: green;
+    color: white;
+}
+
+#deny{
+    color: red;
+}
+
+#deny:hover{
+    background: red;
+    color: white;
+}
+
 .hide{
     visibility: hidden;
     width: 60vw;
